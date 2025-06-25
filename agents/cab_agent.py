@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage, SystemMessage
 
 # --- Model setup ---
-os.environ["GROQ_API_KEY"] = "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"  # Replace with secure method in prod
+os.environ["GROQ_API_KEY"] = "API KEY"  # Replace with secure method in prod
 MODEL = "llama3-70b-8192"
 cab_llm = ChatGroq(temperature=0, model_name=MODEL)
 
